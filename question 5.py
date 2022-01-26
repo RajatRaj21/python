@@ -1,12 +1,5 @@
-#List: color ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
-#a. Write a Python program to print a specified list after removing 4th element.
-#expected output: color [Red', 'Green', 'White', 'Pink', 'Yellow']
-#b. Remove ‘Black’ and ‘Pink’ from the list and replace them with ‘Purple’.
-#Do that in one line code.
+#Write a python program to check if the word “name” is present in the string
+#entered by the user (Print : “Yes” or “No”).
 
-color=['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
-color.pop(3)
-print(color)
-color=['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
-color[3:5]=["Purple"]
-print(color)
+input_1=input("User please enter a string :")
+print("is name presnt in input :","name" in input_1 )
